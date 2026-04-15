@@ -32,7 +32,7 @@ export default function Icon() {
               position: "absolute",
               left: v,
               top: 0,
-              width: 3,
+              width: 6,
               height: 512,
               background: "rgba(255,255,255,0.7)",
             }}
@@ -45,7 +45,7 @@ export default function Icon() {
               position: "absolute",
               top: v,
               left: 0,
-              height: 3,
+              height: 6,
               width: 512,
               background: "rgba(255,255,255,0.7)",
             }}
