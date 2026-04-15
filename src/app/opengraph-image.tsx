@@ -96,39 +96,6 @@ export default function OgImage() {
           />
         ))}
 
-        {/* Title */}
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            gap: 12,
-            background: "rgba(0,0,0,0.35)",
-            backdropFilter: "blur(20px)",
-            borderRadius: 24,
-            padding: "40px 64px",
-          }}
-        >
-          <div
-            style={{
-              fontSize: 64,
-              fontWeight: 700,
-              color: "#fff",
-              letterSpacing: -1,
-            }}
-          >
-            pixelruler
-          </div>
-          <div
-            style={{
-              fontSize: 24,
-              fontWeight: 400,
-              color: "rgba(255,255,255,0.7)",
-            }}
-          >
-            online screen ruler & grid overlay
-          </div>
-        </div>
       </div>
     ),
     { ...size }
