@@ -4,6 +4,8 @@ Online pixel ruler and grid overlay at [pixelruler.dev](https://pixelruler.dev).
 
 ![demo](demo.png)
 
+Created at [Screen Studio](https://screen.studio) to test whether cursor size and rounded corner settings are always pixel-perfect.
+
 ## Features
 
 - Adjustable grid spacing (16–256px)
