@@ -129,6 +129,23 @@ const Tooltip = styled.div`
   white-space: nowrap;
 `;
 
+const Footer = styled.a`
+  position: fixed;
+  bottom: 10px;
+  right: 14px;
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  z-index: 10;
+  letter-spacing: 0.3px;
+  transition: color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.55);
+  }
+`;
+
 const virtualReference = {
   getBoundingClientRect: () => new DOMRect(0, 0, 0, 0),
 };
@@ -259,6 +276,14 @@ export default function Page() {
             {mouse.x}, {mouse.y}
           </Tooltip>
         )}
+
+        <Footer
+          href="https://screen.studio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Made at Screen Studio
+        </Footer>
 
         <Controls>
           <SliderGroup>
